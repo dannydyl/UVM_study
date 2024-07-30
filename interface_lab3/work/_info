@@ -1,0 +1,103 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/danny/OneDrive/Desktop/FPGA/Modelsim/interface_lab3
+vcounter
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1722358802
+!i10b 1
+!s100 F@MnQC6H`Z@@ggJZTF2H11
+IUOoVS>`OdP_=M4XJeimjS1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 counter_sv_unit
+S1
+R0
+Z3 w1722290037
+8counter.sv
+Fcounter.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1722358802.000000
+!s107 counter.sv|
+!s90 -reportprogress|300|counter.sv|
+!i113 1
+Z6 tCvgOpt 0
+Ycounter_if
+R1
+!s110 1722358803
+!i10b 1
+!s100 49]EL;mD>TidcoFMZL=Sz3
+Iz39YbW_lDa_Mke:cAagQg1
+R2
+!s105 counter_if_sv_unit
+S1
+R0
+R3
+8counter_if.sv
+Fcounter_if.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 counter_if.sv|
+!s90 -reportprogress|300|counter_if.sv|
+!i113 1
+R6
+vtop
+R1
+DXx4 work 11 top_sv_unit 0 22 bo3CLh:2iiKa;4KW5g8hC0
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 D_L0l:f2bOb5<Y[]G3doR0
+I1D>?Q]J8n]9m]T@n6QlZ72
+!s105 top_sv_unit
+S1
+R0
+R3
+Z7 8top.sv
+Z8 Ftop.sv
+L0 3
+R4
+Z9 !s108 1722358803.000000
+Z10 !s107 tester.svh|top.sv|
+Z11 !s90 -reportprogress|300|top.sv|
+!i113 1
+R6
+Xtop_sv_unit
+!s115 counter_if
+R1
+Vbo3CLh:2iiKa;4KW5g8hC0
+r1
+!s85 0
+31
+!i10b 1
+!s100 1B3;WCAk`?K@I0NG:1McQ2
+Ibo3CLh:2iiKa;4KW5g8hC0
+!i103 1
+S1
+R0
+R3
+R7
+R8
+Ftester.svh
+L0 1
+R4
+R9
+R10
+R11
+!i113 1
+R6
