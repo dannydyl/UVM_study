@@ -1,0 +1,70 @@
+C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/counter_pkg.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/counter_pkg.sv
+Questa Intel Starter FPGA Edition-64 vlog 2024.1 Compiler 2024.04 Apr 19 2024
+** Note: (vlog-2286) C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/counter_pkg.sv(1): Using implicit +incdir+C:/intelFPGA_pro/24.2/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package counter_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Error: ** while parsing file included at C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/counter_pkg.sv(11)
+** at agent_with_interface.svh(14): Function 'new' is allowed only in context of class constructor.
+** Error: ** while parsing file included at C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/counter_pkg.sv(11)
+** at agent_with_interface.svh(15): 'super.new()' call can be made only from within a class constructor.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/counter_pkg.sv(11)
+** at agent_with_interface.svh(26): near "endclass": syntax error, unexpected endclass, expecting class.
+
+} {6.0 7.0 8.0 9.0 10.0 11.0} {}} C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/counter_if.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/counter_if.sv
+Questa Intel Starter FPGA Edition-64 vlog 2024.1 Compiler 2024.04 Apr 19 2024
+-- Compiling interface counter_if
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/agent_with_interface.svh {0 {vlog -work work -vopt -sv -stats=none C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/agent_with_interface.svh
+Questa Intel Starter FPGA Edition-64 vlog 2024.1 Compiler 2024.04 Apr 19 2024
+** Error: C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/agent_with_interface.svh(14): Function 'new' is allowed only in context of class constructor.
+** Error: C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/agent_with_interface.svh(14): (vlog-2400) Identifier ('uvm_component') found where a type or type identifier is required.
+
+} {3.0 5.0} {}} C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/top.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/top.sv
+Questa Intel Starter FPGA Edition-64 vlog 2024.1 Compiler 2024.04 Apr 19 2024
+** Error: C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/top.sv(2): (vlog-13006) Could not find the package (counter_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+
+} {3.0 4.0} {}} C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/quiet_test.svh {0 {vlog -work work -vopt -sv -stats=none C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/quiet_test.svh
+Questa Intel Starter FPGA Edition-64 vlog 2024.1 Compiler 2024.04 Apr 19 2024
+** Note: (vlog-2286) C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/quiet_test.svh(1): Using implicit +incdir+C:/intelFPGA_pro/24.2/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: (vlog-13069) C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/quiet_test.svh(3): near "uvm_test": syntax error, unexpected IDENTIFIER.
+** Error: C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/quiet_test.svh(3): Error in class extension specification.
+** Warning: (vlog-2292) An included file is associated with a closed UVM package, but no closed UVM package was imported
+
+} {4.0 6.0} {}} C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/counter_test.svh {0 {vlog -work work -vopt -sv -stats=none C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/counter_test.svh
+Questa Intel Starter FPGA Edition-64 vlog 2024.1 Compiler 2024.04 Apr 19 2024
+** Error: (vlog-13069) C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/counter_test.svh(1): near "uvm_test": syntax error, unexpected IDENTIFIER.
+** Error: C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/counter_test.svh(1): Error in class extension specification.
+
+} {3.0 5.0} {}} C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/scoreboard.svh {0 {vlog -work work -vopt -sv -stats=none C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/scoreboard.svh
+Questa Intel Starter FPGA Edition-64 vlog 2024.1 Compiler 2024.04 Apr 19 2024
+** Error: C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/scoreboard.svh(8): Function 'new' is allowed only in context of class constructor.
+** Error: C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/scoreboard.svh(8): (vlog-2400) Identifier ('uvm_component') found where a type or type identifier is required.
+
+} {3.0 5.0} {}} C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/printer.svh {0 {vlog -work work -vopt -sv -stats=none C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/printer.svh
+Questa Intel Starter FPGA Edition-64 vlog 2024.1 Compiler 2024.04 Apr 19 2024
+** Error: C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/printer.svh(8): Function 'new' is allowed only in context of class constructor.
+** Error: C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/printer.svh(8): (vlog-2400) Identifier ('uvm_component') found where a type or type identifier is required.
+
+} {3.0 5.0} {}} C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/driver.svh {0 {vlog -work work -vopt -sv -stats=none C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/driver.svh
+Questa Intel Starter FPGA Edition-64 vlog 2024.1 Compiler 2024.04 Apr 19 2024
+** Error: (vlog-13069) C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/driver.svh(3): near "agent_with_interface": syntax error, unexpected IDENTIFIER.
+** Error: C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/driver.svh(3): Error in class extension specification.
+
+} {3.0 5.0} {}} C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/counter_env.svh {0 {vlog -work work -vopt -sv -stats=none C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/counter_env.svh
+Questa Intel Starter FPGA Edition-64 vlog 2024.1 Compiler 2024.04 Apr 19 2024
+** Note: (vlog-2286) C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/counter_env.svh(1): Using implicit +incdir+C:/intelFPGA_pro/24.2/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: (vlog-13069) C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/counter_env.svh(3): near "uvm_test": syntax error, unexpected IDENTIFIER.
+** Error: C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/counter_env.svh(3): Error in class extension specification.
+** Warning: (vlog-2292) An included file is associated with a closed UVM package, but no closed UVM package was imported
+
+} {4.0 6.0} {}} C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/counter.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/danny/OneDrive/Desktop/FPGA/QuestaSim/uvm_environment_lab5/counter.sv
+Questa Intel Starter FPGA Edition-64 vlog 2024.1 Compiler 2024.04 Apr 19 2024
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}}

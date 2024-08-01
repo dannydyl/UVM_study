@@ -1,0 +1,116 @@
+# Compile of agent_with_interface.svh failed with 2 errors.
+# Compile of counter.sv was successful.
+# Compile of counter_env.svh failed with 2 errors.
+# Compile of counter_if.sv was successful.
+# Compile of counter_pkg.sv failed with 3 errors.
+# Compile of counter_test.svh failed with 2 errors.
+# Compile of driver.svh failed with 2 errors.
+# Compile of printer.svh failed with 2 errors.
+# Compile of quiet_test.svh failed with 2 errors.
+# Compile of scoreboard.svh failed with 2 errors.
+# Compile of top.sv failed with 1 errors.
+# 11 compiles, 9 failed with 18 errors.
+vlog -f compile_sv.f
+# Questa Intel Starter FPGA Edition-64 vlog 2024.1 Compiler 2024.04 Apr 19 2024
+# Start time: 15:45:11 on Aug 01,2024
+# vlog -reportprogress 300 -f compile_sv.f 
+# ** Note: (vlog-2286) counter_pkg.sv(1): Using implicit +incdir+C:/intelFPGA_pro/24.2/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Compiling package counter_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Compiling interface counter_if
+# -- Compiling module counter
+# -- Compiling package top_sv_unit
+# -- Importing package counter_pkg
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:45:11 on Aug 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run run.do
+# No Design Loaded!
+# Questa Intel Starter FPGA Edition-64 vlog 2024.1 Compiler 2024.04 Apr 19 2024
+# Start time: 15:47:56 on Aug 01,2024
+# vlog -reportprogress 300 -f compile_sv.f 
+# ** Note: (vlog-2286) counter_pkg.sv(1): Using implicit +incdir+C:/intelFPGA_pro/24.2/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Compiling package counter_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Compiling interface counter_if
+# -- Compiling module counter
+# -- Compiling package top_sv_unit
+# -- Importing package counter_pkg
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:47:57 on Aug 01,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" top "+UVM_TESTNAME=counter_test" 
+# Start time: 15:47:57 on Aug 01,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.counter_if(fast)
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.counter_pkg(fast)
+# Loading work.top_sv_unit(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.top(fast)
+# Loading work.counter_if(fast__2)
+# Loading work.counter(fast)
+# Loading C:/intelFPGA_pro/24.2/questa_fse/uvm-1.1d\win64\uvm_dpi.dll
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test counter_test...
+# UVM_INFO driver.svh(21) @ 0: uvm_test_top.env.drv [run] Running with 5 loops
+# UVM_INFO printer.svh(20) @ 20: uvm_test_top.env.prt [run] data_in: 81 q: 00    ld: 0,    inc: 0
+# UVM_ERROR scoreboard.svh(28) @ 40: uvm_test_top.env.sb [run] Expected 00  Received 01
+# UVM_INFO printer.svh(20) @ 40: uvm_test_top.env.prt [run] data_in: 81 q: 01    ld: 0,    inc: 0
+# UVM_ERROR scoreboard.svh(28) @ 60: uvm_test_top.env.sb [run] Expected 01  Received 02
+# UVM_INFO printer.svh(20) @ 60: uvm_test_top.env.prt [run] data_in: 8d q: 02    ld: 0,    inc: 1
+# UVM_ERROR scoreboard.svh(28) @ 80: uvm_test_top.env.sb [run] Expected 02  Received 03
+# UVM_INFO printer.svh(20) @ 80: uvm_test_top.env.prt [run] data_in: 8d q: 03    ld: 0,    inc: 1
+# UVM_ERROR scoreboard.svh(28) @ 100: uvm_test_top.env.sb [run] Expected 03  Received 04
+# UVM_INFO printer.svh(20) @ 100: uvm_test_top.env.prt [run] data_in: 0d q: 04    ld: 0,    inc: 1
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 100: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   10
+# UVM_WARNING :    0
+# UVM_ERROR :    4
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [run]    10
+# ** Note: $finish    : C:/intelFPGA_pro/24.2/questa_fse/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 100 ns  Iteration: 57  Instance: /top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/intelFPGA_pro/24.2/questa_fse/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+quit -sim
+# End time: 16:11:29 on Aug 01,2024, Elapsed time: 0:23:32
+# Errors: 0, Warnings: 6
